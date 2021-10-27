@@ -29,7 +29,7 @@ a:active {
 }
 
 a:visited {
-  color: gray;
+  color: rgb(238, 14, 32);
 }
 
 a {
@@ -112,6 +112,7 @@ a {
 
 img {
   max-width: 100%;
+  border-radius:  50px;
 }
 
 .bg-yellow {
@@ -239,15 +240,36 @@ img {
 
 .slider-item {
   cursor:  pointer;
-  padding: 15px;
+  padding: 25px;
   border: 3px dashed white;
   margin-top: 55px; 
   max-width:  15%;
   justify-content: space-around;
-   
+}
+
+.slider-item h2 {
+  background: rgb(71, 71, 238);
+  padding: 20px;
+  border-radius: 40px;
 }
 
 
+
+.slider-item img:hover {
+  box-shadow: 5px 5px 25px 25px rgba(67, 138, 230, 0.952);
+  transition: all .5s ease;
+}
+
+
+ .slider-item h2:hover {
+  box-shadow: 5px 5px 25px 25px rgb(71, 71, 238);
+  transition: all .5s ease;
+}
+
+.slider-item:hover {
+  box-shadow: 5px 5px 25px 25px #70b4f7;
+  transition: all .5s ease;
+}
 /*Position*/
 /* .position {
   position: relative; 

@@ -112,27 +112,28 @@
       <div class="slider">
        <h2>Portfolio</h2>
        <div class="slider-preview">
+         <h2><a href="" target="_blank"></a></h2>
          <img src="" alt="" id="preview-img">
        </div>
           <div class="slider__child">
                   <div class="slider-item">
-                    <img src="img/board.png" alt="">
+                    <img src="img/board.png" alt="https://fallenstarrr.github.io/hover-mini-game-4thproject/">
                     <h2>Board Game</h2>
                   </div>
                   <div class="slider-item">
-                    <img src="img/gallery.png" alt="">
+                    <img src="img/gallery.png" alt="https://fallenstarrr.github.io/slider/">
                     <h2>Gallery</h2>
                   </div>
                   <div class="slider-item">
-                    <img src="img/digit.jpeg" alt="">
+                    <img src="img/digit.jpeg" alt="https://fallenstarrr.github.io/Company/">
                     <h2>Digital Agency</h2>
                   </div>
                   <div class="slider-item">
-                    <img src="img/pc.jpeg" alt="">
+                    <img src="img/pc.jpeg" alt="https://fallenstarrr.github.io/cool_pc/">
                     <h2>PC Building Cources</h2>
                   </div>
                   <div class="slider-item">
-                    <img src="img/pepsijpeg.jpeg" alt="">
+                    <img src="img/pepsijpeg.jpeg" alt="https://fallenstarrr.github.io/Responsive-Pepsi/">
                     <h2>Pepsi Responsive</h2>
                   </div>
            </div>
@@ -142,6 +143,7 @@
   
      let items = document.querySelectorAll('.slider-item img')
      let preview = document.querySelector('.slider-preview')
+     let a= document.querySelector('.slider-preview  a')
      let img = document.querySelector('#preview-img')
      items.forEach((item) => item.addEventListener('click', showItem))
 
@@ -149,6 +151,8 @@
 
      function showItem(e) {
         img.src = e.target.src
+        a.href = e.target.alt
+        a.textContent = e.target.alt
         console.log('click')
      }
    </script>
