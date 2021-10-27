@@ -138,7 +138,7 @@ img {
   
 }
 
-/* @keyframes fade {
+  @keyframes fade {
   from {
     opacity: 0;
     transform: skew(-15deg, -15deg) rotate3d(1, 1, 1, 45deg);
@@ -149,7 +149,7 @@ img {
     opacity: 1;
     transform: skew(-35deg, -35deg) rotate3d(1, 1, 1, 15deg);
   }
-} */
+} 
 
 /* .table  tr:nth-child(even) {
   background-color: red;
