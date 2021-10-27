@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-
+::selection {
+   background: blueviolet;
+  color: rgb(255, 153, 0);
+  /* background-color: rgb(148, 89, 94);
+  color: white; */
+}
 
 body 
 {
@@ -128,7 +132,7 @@ a {
   
 }
 
-@keyframes fade {
+/* @keyframes fade {
   from {
     opacity: 0;
     transform: skew(-15deg, -15deg) rotate3d(1, 1, 1, 45deg);
@@ -139,7 +143,7 @@ a {
     opacity: 1;
     transform: skew(-35deg, -35deg) rotate3d(1, 1, 1, 15deg);
   }
-}
+} */
 
 /* .table  tr:nth-child(even) {
   background-color: red;
