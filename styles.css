@@ -64,6 +64,9 @@ a {
     display: block;
     text-align: center;
   }
+   .avatar {
+        width: 100%;
+}
 }
 
 .info-text {
